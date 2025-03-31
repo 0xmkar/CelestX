@@ -1,0 +1,75 @@
+### Create a new user (save-user)
+POST http://localhost:5000/api/save-user
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "twitterId": "12345"
+}
+
+### Check if user exists (check-user)
+GET http://localhost:5000/api/check-user?twitterId=12345
+
+### Get Twitter username (twitter-username)
+GET http://localhost:5000/api/twitter-username?twitterId=12345
+
+### Get user details (get-user)
+GET http://localhost:5000/api/get-user?twitterId=12345
+
+### Send XLM (send-xlm)
+POST http://localhost:5000/api/send-xlm
+Content-Type: application/json
+
+{
+  "secretKey": "SXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "recipientAddress": "GXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "amount": "10"
+}
+
+### Get balance (get-balance)
+POST http://localhost:5000/api/get-balance
+Content-Type: application/json
+
+{
+  "secretKey": "SXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}
+
+### Create a new wallet (create-wallet)
+POST http://localhost:5000/api/create-wallet
+Content-Type: application/json
+
+{}
+
+### Save airdrop (save-airdrop)
+POST http://localhost:5000/api/save-airdrop
+Content-Type: application/json
+
+{
+  "airdropId": "airdrop1",
+  "airdropName": "Test Airdrop",
+  "description": "A test airdrop for demonstration purposes.",
+  "websiteUrl": "http://example.com",
+  "totalAirdropAmount": 1000,
+  "tokensPerUser": 10,
+  "distributionMethod": "equal",
+  "eligibilityCriteria": "all",
+  "airdropStartDate": "2025-01-01",
+  "airdropEndDate": "2025-01-10",
+  "distributionDate": "2025-01-11",
+  "claimDeadline": "2025-01-15",
+  "token": "TEST",
+  "tasks": []
+}
+
+### Show airdrops (show-airdrops)
+GET http://localhost:5000/api/show-airdrops
+
+### Join airdrop (join-airdrop)
+POST http://localhost:5000/api/join-airdrop
+Content-Type: application/json
+
+{
+  "airdropId": "airdrop1",
+  "twitterId": "12345",
+  "walletAddress": "GXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

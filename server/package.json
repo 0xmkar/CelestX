@@ -1,0 +1,13 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.1.0",
+    "stellar-sdk": "^10.1.0"
+  }
+}
