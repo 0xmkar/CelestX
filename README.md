@@ -1,6 +1,6 @@
-# Zero-X
+# CelestX 
 
-Zero-X is an LLM-based AI Agent built on the Sonic chain, designed to revolutionize Web3 transactions by replacing complex wallet addresses with familiar Twitter usernames. It offers all the basic functionalities of a modern crypto wallet - such as sending funds, checking balances, and more - while leveraging the secure and efficient Sonic blockchain.
+CelestX  is an LLM-based AI Agent built on the Sonic chain, designed to revolutionize Web3 transactions by replacing complex wallet addresses with familiar Twitter usernames. It offers all the basic functionalities of a modern crypto wallet - such as sending funds, checking balances, and more - while leveraging the secure and efficient Sonic blockchain.
 
 ## Features
 
@@ -31,8 +31,8 @@ Zero-X is an LLM-based AI Agent built on the Sonic chain, designed to revolution
 1. **Clone the repository:**
 
 ```
- git clone git@github.com:0xmkar/Zer0-X.git
- cd zero-x
+ git clone git@github.com:0xmkar/CelestX.git
+ cd CelestX 
 ```
 
 2. **Load the extension in your browser:**
