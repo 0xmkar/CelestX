@@ -10,9 +10,6 @@ CelestX  is an LLM-based AI Agent built on the Stellar chain, designed to revolu
 - **AI-Powered Web3 Transactions**  
   Use an LLM-based AI Agent (powered by Groq) to send and receive crypto transactions, bypassing traditional wallet addresses by leveraging Twitter usernames.
 
-- **Airdrop Functionality**  
-  Create and join airdrops on the Stellar chain, allowing users to distribute or receive tokens in a community-driven manner.
-
 - **Multiple Interfaces**
   - **Browser Extension**: Send transactions directly from Twitter.
   - **Website**: Log in with Twitter to map your wallet to your Twitter account and manage transactions.
@@ -67,7 +64,7 @@ CelestX  is an LLM-based AI Agent built on the Stellar chain, designed to revolu
   Install the extension and connect your wallet. Use the Twitter-integrated interface to send and receive funds effortlessly.
 
 - **For the Website:**  
-  Log in using your Twitter account to map your wallet, manage transactions, and participate in airdrops.
+  Log in using your Twitter account to map your wallet, manage transactions.
 
 ## License
 
