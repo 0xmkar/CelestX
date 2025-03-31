@@ -1,17 +1,17 @@
 # CelestX 
 
-CelestX  is an LLM-based AI Agent built on the Sonic chain, designed to revolutionize Web3 transactions by replacing complex wallet addresses with familiar Twitter usernames. It offers all the basic functionalities of a modern crypto wallet - such as sending funds, checking balances, and more - while leveraging the secure and efficient Sonic blockchain.
+CelestX  is an LLM-based AI Agent built on the Stellar chain, designed to revolutionize Web3 transactions by replacing complex wallet addresses with familiar Twitter usernames. It offers all the basic functionalities of a modern crypto wallet - such as sending funds, checking balances, and more - while leveraging the secure and efficient Stellar blockchain.
 
 ## Features
 
-- **Sonic Chain Integration**  
-  Fully harness the native power of the Sonic chain for secure, fast, and decentralized transactions.
+- **Stellar Chain Integration**  
+  Fully harness the native power of the Stellar chain for secure, fast, and decentralized transactions.
 
 - **AI-Powered Web3 Transactions**  
   Use an LLM-based AI Agent (powered by Groq) to send and receive crypto transactions, bypassing traditional wallet addresses by leveraging Twitter usernames.
 
 - **Airdrop Functionality**  
-  Create and join airdrops on the Sonic chain, allowing users to distribute or receive tokens in a community-driven manner.
+  Create and join airdrops on the Stellar chain, allowing users to distribute or receive tokens in a community-driven manner.
 
 - **Multiple Interfaces**
   - **Browser Extension**: Send transactions directly from Twitter.
@@ -20,7 +20,7 @@ CelestX  is an LLM-based AI Agent built on the Sonic chain, designed to revoluti
 ## Tech Stack
 
 - **AI & LLM**: Groq
-- **Blockchain**: Sonic Chain
+- **Blockchain**: Stellar Chain
 - **Web3 Integration**: Wallet mapping and transaction handling
 - **Frontend**: Browser extension & web application
 
